@@ -18,8 +18,8 @@ Finally I put them all together. Of course, I made coding on micropython. I used
 
 Required equipments:
 1. Raspberry Pi Pico
-2. Some leds, actually 10 pcs.
-3. 1x potentiometer
+2. Bargraph LED 10 segments or 10 pcs leds.
+3. potentiometer
 4. TM1637
 5. HC-SR04 
 
