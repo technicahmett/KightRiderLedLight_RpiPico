@@ -13,11 +13,10 @@ There are a few titles in this project. I wanted to share these titles when I wa
 - use the potentiometer,
 - use the TM1637 4 Digit 7 Segment Display,
 - use HC-SR04 Distance sensor,
-Finally I put them all together.
 
-Of course, I made coding on micropython. I used Thonny IDE.
+Finally I put them all together. Of course, I made coding on micropython. I used Thonny IDE.
 
-Required equipments
+Required equipments:
 1. Raspberry Pi Pico
 2. Some leds, actually 10 pcs.
 3. 1x potentiometer
@@ -26,8 +25,9 @@ Required equipments
 
 
 Special Thanks and links.
-https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico
-https://docs.micropython.org/en/latest/rp2/quickref.html
-https://hackspace.raspberrypi.com/books/micropython-pico
-https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
-https://thonny.org/
+
+<p>https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico</p>
+  <p>https://docs.micropython.org/en/latest/rp2/quickref.html</p>
+  <p>https://hackspace.raspberrypi.com/books/micropython-pico</p>
+  <p>https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf</p>
+  <p>https://thonny.org/</p>
