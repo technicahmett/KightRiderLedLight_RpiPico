@@ -7,14 +7,14 @@
 I have used Raspberry Pico and Micropython in this project. 
 You know Pico. Pico is tiny and fast a MCU. But I won't tell you the Pico. You can find on internet If you want.
 
-There are a few titles in this project. I wanted to share these titles when I was learning to Micropyhton.
+There are a few titles in this project. I wanted to share these titles when I was learning to MicroPyhton.
 
 - Blink led. Led on/off,
 - use the potentiometer,
 - use the TM1637 4 Digit 7 Segment Display,
 - use HC-SR04 Distance sensor,
 
-Finally I put them all together. Of course, I made coded using micropython on Thonny IDE.
+Finally I put them all together. Of course, I made coded using MicroPython on Thonny IDE.
 
 Required equipments:
 1. Raspberry Pi Pico
@@ -24,13 +24,14 @@ Required equipments:
 5. HC-SR04 
 
 
-Special Thanks
- For tm1637 library file. https://github.com/mcauser/micropython-tm1637
+## Special Thanks
+* [For tm1637 library file](https://github.com/mcauser/micropython-tm1637)
+* [For hc-sr04 library file](https://github.com/rsc1975/micropython-hcsr04)
   
-Some required links:
+ ## Links
 
-<p>https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico</p>
-  <p>https://docs.micropython.org/en/latest/rp2/quickref.html</p>
-  <p>https://hackspace.raspberrypi.com/books/micropython-pico</p>
-  <p>https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf</p>
-  <p>https://thonny.org/</p>
+* [Raspbbery Pi Pico Getting started](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
+* [MicroPython Pi Documents](https://docs.micropython.org/en/latest/rp2/quickref.html)
+* [RPi_PiPico_Digital_v10-pdf](https://hackspace.raspberrypi.com/books/micropython-pico/)
+* [Getting started with Raspberry Pi Pico-pdf](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
+* [Thonny IDE](https://thonny.org)
