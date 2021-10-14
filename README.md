@@ -23,10 +23,44 @@ Required equipments:
 4. TM1637
 5. HC-SR04 
 
+## Connections for Bargraph LED
+
+Rpi Pico    | Bargraph
+----------- | -----------
+4 (GP2)     | Led1
+2 (GP3)     | Led2
+6 (GP4)     | Led3
+7 (GP5      | Led4
+9 (GP6)     | Led5
+10 (GP7)    | Led6
+11 (GP8)    | Led7
+12 (GP9)    | Led8
+14 (GP10)   | Led9
+15 (GP11)   | Led10
+  
+  
+## Connections for TM1637
+
+Rpi Pico     | TM1637
+------------ | ---------------
+20 (GP15)    | CLK
+19 (GP14)    | DIO
+3V3 (or 5V)  | VCC
+GND          | GND
+  
+## Connections for HC-SR04
+
+Rpi Pico    | HC-SR04
+----------- | ---------------
+22 (GP17)   | Trigger Pin
+21 (GP16)   | Echo Pin
+40  (5V)    | VCC
+GND         | GND
 
 ## Special Thanks
 * [For tm1637 library file](https://github.com/mcauser/micropython-tm1637)
 * [For hc-sr04 library file](https://github.com/rsc1975/micropython-hcsr04)
+* [HC-SR04 Datasheet](https://www.mpja.com/download/hc-sr04_ultrasonic_module_user_guidejohn.pdf)
   
  ## Links
 
