@@ -14,17 +14,20 @@ There are a few titles in this project. I wanted to share these titles when I wa
 - use the TM1637 4 Digit 7 Segment Display,
 - use HC-SR04 Distance sensor,
 
-Finally I put them all together. Of course, I made coding on micropython. I used Thonny IDE.
+Finally I put them all together. Of course, I made coded using micropython on Thonny IDE.
 
 Required equipments:
 1. Raspberry Pi Pico
 2. Bargraph LED 10 segments or 10 pcs leds.
-3. potentiometer
+3. Potentiometer
 4. TM1637
 5. HC-SR04 
 
 
-Special Thanks and links.
+Special Thanks
+ For tm1637 library file. https://github.com/mcauser/micropython-tm1637
+  
+Some required links:
 
 <p>https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico</p>
   <p>https://docs.micropython.org/en/latest/rp2/quickref.html</p>
