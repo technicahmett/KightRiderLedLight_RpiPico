@@ -60,7 +60,8 @@ GND         | GND
 ## Special Thanks
 * [For tm1637 library file](https://github.com/mcauser/micropython-tm1637)
 * [For hc-sr04 library file](https://github.com/rsc1975/micropython-hcsr04)
-* [HC-SR04 Datasheet](https://www.mpja.com/download/hc-sr04_ultrasonic_module_user_guidejohn.pdf)
+* [HC-SR04 Wiki](https://www.mpja.com/download/hc-sr04_ultrasonic_module_user_guidejohn.pdf)
+* [TM1637 Wiki](https://github.com/Seeed-Studio/Grove_4Digital_Display)
   
  ## Links
 
