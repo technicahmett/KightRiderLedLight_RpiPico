@@ -81,6 +81,7 @@ GND         | GND
 sensor = HCSR04(trigger_pin=17, echo_pin=16)
 ```
   
+   
 
 ## Special Thanks
 * [For tm1637 library file](https://github.com/mcauser/micropython-tm1637)
