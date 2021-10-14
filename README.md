@@ -39,7 +39,7 @@ Rpi Pico    | Bargraph
 14 (GP10)   | Led9
 15 (GP11)   | Led10
 
-**Basic usage**
+**in the code**
 ```python
 #set pin numbers for LEDs
 LEDs = [Pin(i) for i in range(1,12)]
@@ -59,7 +59,7 @@ Rpi Pico     | TM1637
 3V3 (or 5V)  | VCC
 GND          | GND
  
-**Basic usage**
+**in the code**
  ```python  
 #set tm1637 LCD 
 tm = tm1637.TM1637(clk=Pin(15), dio=Pin(14))
@@ -75,7 +75,7 @@ Rpi Pico    | HC-SR04
 40  (5V)    | VCC
 GND         | GND
 
-**Basic usage**
+**in the code**
   ```python
 # set pin number for HCSR04
 sensor = HCSR04(trigger_pin=17, echo_pin=16)
