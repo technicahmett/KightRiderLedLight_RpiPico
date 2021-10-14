@@ -8,7 +8,7 @@ I have used Raspberry Pico and Micropython in this project.
 You know Pico. Pico is tiny and fast a MCU. But I won't tell you the Pico. You can find on internet If you want.
 
 There are a few titles in this project. I wanted to share these titles when I was learning to MicroPython.
-I think, Raspbbery Pi Pico will be correct choose if you want to learn MicroPython...
+***I think, Raspbbery Pi Pico will be correct choose if you want to learn MicroPython...***
 
 - Blink led. Led on/off,
 - use the potentiometer,
@@ -38,8 +38,19 @@ Rpi Pico    | Bargraph
 12 (GP9)    | Led8
 14 (GP10)   | Led9
 15 (GP11)   | Led10
+
+**Basic usage**
+
+```python
+#set pin numbers for LEDs
+LEDs = [Pin(i) for i in range(1,12)]
+
+#set pin modes to OUT
+for i in range (1,12):
+    Pin(i,Pin.OUT)
+```
   
-  
+    
 ## Connections for TM1637
 
 Rpi Pico     | TM1637
@@ -48,6 +59,11 @@ Rpi Pico     | TM1637
 19 (GP14)    | DIO
 3V3 (or 5V)  | VCC
 GND          | GND
+ ```python  
+#set tm1637 LCD 
+tm = tm1637.TM1637(clk=Pin(15), dio=Pin(14))
+   ```
+  
   
 ## Connections for HC-SR04
 
@@ -57,6 +73,12 @@ Rpi Pico    | HC-SR04
 21 (GP16)   | Echo Pin
 40  (5V)    | VCC
 GND         | GND
+
+  ```python
+# set pin number for HCSR04
+sensor = HCSR04(trigger_pin=17, echo_pin=16)
+```
+  
 
 ## Special Thanks
 * [For tm1637 library file](https://github.com/mcauser/micropython-tm1637)
@@ -71,3 +93,6 @@ GND         | GND
 * [RPi_PiPico_Digital_v10-pdf](https://hackspace.raspberrypi.com/books/micropython-pico/)
 * [Getting started with Raspberry Pi Pico-pdf](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
 * [Thonny IDE](https://thonny.org)
+
+  
+  ***Don't forget the Star...***
