@@ -7,7 +7,8 @@
 I have used Raspberry Pico and Micropython in this project. 
 You know Pico. Pico is tiny and fast a MCU. But I won't tell you the Pico. You can find on internet If you want.
 
-There are a few titles in this project. I wanted to share these titles when I was learning to MicroPyhton.
+There are a few titles in this project. I wanted to share these titles when I was learning to MicroPython.
+I think, Raspbbery Pi Pico will be correct choose if you want to learn MicroPython...
 
 - Blink led. Led on/off,
 - use the potentiometer,
