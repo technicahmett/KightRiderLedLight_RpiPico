@@ -1,4 +1,4 @@
-# KightRiderLeds_RpiPico
+# KnightRiderLeds_RpiPico
 <h2>Make Knight Rider Led with the RaspberryPi Pico<h2>
 
 
