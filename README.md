@@ -5,24 +5,24 @@
 <h3>Hi everbody.</h3> 
 
 I have used Raspberry Pico and Micropython in this project. 
-You know Pico. Pico is tiny and fast a MCU. But I won't tell you the Pico. You can find on internet If you want.
+You know Pico. Pico is tiny and fast a MCU. But I won't tell you about the Pico. You can find it on the internet If you want...
 
 There are a few titles in this project. I wanted to share these titles when I was learning to MicroPython.
     <p>***I think, Raspbbery Pi Pico will be correct choose if you want to learn MicroPython...***</p>
 
 - Blink led. Led on/off,
-- use the potentiometer,
-- use the TM1637 4 Digit 7 Segment Display,
-- use HC-SR04 Distance sensor,
+- usage the potentiometer,
+- usage the TM1637 4 Digit 7 Segment Display,
+- usage HC-SR04 Distance sensor,
 
-Finally I put them all together. Of course, I made coded using MicroPython on Thonny IDE.
-
+Finally I put them all together. Of course, I have coded in MicroPython on Thonny IDE.
+    
 Required equipments:
-1. Raspberry Pi Pico
-2. Bargraph LED 10 segments or 10 pcs leds.
-3. Potentiometer
-4. TM1637
-5. HC-SR04 
+1. Raspberry Pi Pico,
+2. Bargraph LED 10 segments or 10 pcs leds,
+3. Potentiometer,
+4. TM1637,
+5. HC-SR04.
 
 ## Connections for Bargraph LED
 
