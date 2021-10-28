@@ -64,10 +64,15 @@ Rpi Pico    | POT
 36 3.3V     | VCC
   (GND)     | GND
 
-
 <p align="center">
   <img src="https://github.com/technicahmett/KightRiderLeds_RpiPico/blob/main/POT_schema.jpg" width="550" title="Potantiometer schema">
 </p>
+    
+**in the code**
+ ```python 
+adc = machine.ADC(26)     # add a ADC object on ADC pin
+conversion_factor = 200 / (65300) #for maks. 200ms
+  ```
       
 ## Connections for TM1637
 
