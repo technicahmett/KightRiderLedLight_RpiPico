@@ -38,7 +38,12 @@ Rpi Pico    | Bargraph
 12 (GP9)    | Led8
 14 (GP10)   | Led9
 15 (GP11)   | Led10
+    GND     | GND
 
+<p align="center">
+  <img src="https://github.com/technicahmett/KightRiderLeds_RpiPico/blob/main/led_schema.jpg" width="550" title="led schema">
+</p>
+    
 **in the code**
 ```python
 #set pin numbers for LEDs
@@ -49,7 +54,21 @@ for i in range (1,12):
     Pin(i,Pin.OUT)
 ```
   
-    
+## Connections for Potantiometer
+
+Rpi Pico    | POT
+----------- | -----------
+31 (GP26)   | ADC0 (or)
+322 (GP27)  | ADC1 (or)
+34 (GP28)   | ADC2 (or)
+36 3.3V     | VCC
+  (GND)     | GND
+
+
+<p align="center">
+  <img src="https://github.com/technicahmett/KightRiderLeds_RpiPico/blob/main/POT_schema.jpg" width="550" title="Potantiometer schema">
+</p>
+      
 ## Connections for TM1637
 
 Rpi Pico     | TM1637
@@ -58,6 +77,10 @@ Rpi Pico     | TM1637
 19 (GP14)    | DIO
 3V3 (or 5V)  | VCC
 GND          | GND
+    
+<p align="center">
+  <img src="https://github.com/technicahmett/KightRiderLeds_RpiPico/blob/main/TM1637_schema.jpg" width="550" title="TM1637 schema">
+</p>
  
 **in the code**
  ```python  
@@ -74,7 +97,11 @@ Rpi Pico    | HC-SR04
 21 (GP16)   | Echo Pin
 40  (5V)    | VCC
 GND         | GND
-
+  
+<p align="center">
+  <img src="https://github.com/technicahmett/KightRiderLeds_RpiPico/blob/main/HCSR04_schema.jpg" width="550" title="HCSR04 schema">
+</p>
+ 
 **in the code**
   ```python
 # set pin number for HCSR04
