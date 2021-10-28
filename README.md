@@ -1,5 +1,4 @@
-# KnightRiderLeds_RpiPico
-<h2>Make Knight Rider Led with the RaspberryPi Pico<h2>
+<h2>How to Make KnightRider Led Light with the RaspberryPi Pico<h2>
 
 
 <h3>Hi everbody.</h3> 
